@@ -7,4 +7,4 @@
 
 ## Configuration
 
-Rename `.env.example` to `.env` and insert your bot token from BotFather
+Rename `.env.example` to `.env` and replace your bot token from BotFather
