@@ -8,3 +8,5 @@
 ## Configuration
 
 Rename `.env.example` to `.env` and replace your bot token from BotFather
+
+Replace `MONGODB_URL` and other fields with yours
