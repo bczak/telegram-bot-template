@@ -1,0 +1,20 @@
+{
+  "name": "telegram-bot-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tashpjak/telegram-bot-template",
+  "author": "Jakhongir Tashpulatov <tashpulatov.jakhongir@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.0.1",
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "tsnd ./src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
