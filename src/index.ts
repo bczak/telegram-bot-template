@@ -5,9 +5,9 @@ import middleware from "./setup/middleware";
 
 config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN || "");
+const bot: Telegraf = new Telegraf(process.env.BOT_TOKEN || "");
 
-async function main() {
+async function main(): Promise<void> {
 	bot.use(middleware);
 	await bot.launch({});
 }
